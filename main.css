@@ -201,3 +201,42 @@ body{
     height: 21px;
     margin: 11px 3.9px 11px 22.4px;
 }
+
+.questions{
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-questions{
+    width: 1130px;
+    height: 252px;
+    display: flex;
+    gap: 64px;
+}
+.container_question{
+    width: 334px;
+}
+.question-img{
+    
+}
+.question-heading{
+    font-size: 25px;
+    line-height: 32.5px;
+    margin: 13px 0 0 0;
+}
+.question-heading-guests{
+    font-size: 25px;
+    line-height: 32.5px;
+    margin: 13px 0 0 0;
+    width: 274px;
+}
+.question-p{
+    width: 321px;
+    height: 108px;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 13px 0;
+
+}
