@@ -8,6 +8,10 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
+.border{
+    border: #ababab dashed 2px;
+    height: 860px;
+}
 .pre-header{
     height: 44px;
     display: flex;
@@ -29,4 +33,171 @@ body{
 .pink{
     padding-left: 10px;
     color: #d87775;
+}
+
+.header{
+    height: 74px;
+    display: flex;
+    align-items: center;
+}
+
+.container-header{
+    display: flex;
+    padding: 0 155px;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.text-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 990px;
+    height: 36px;
+}
+.text-button p{
+    padding-left: 300px;
+    font-size: 15px;
+    letter-spacing: 0.6px;
+    line-height: 22.4px;
+    color: #757575;
+    
+}
+.container-button{
+    
+}
+.header-button{
+    color: #fff;
+    background-color: #e48d8b;
+    width: 117px;
+    height: 36px;
+    border: solid  #e48d8b;
+
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 24px;
+    font-family: 'Inter', sans-serif;
+}
+.main{
+    padding: 0 155px;
+    width: 1440px;
+}
+.learn_how_to{
+    height: 742px;
+
+}
+.container-learn{
+    height: 490px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    margin-top: 120px;
+}
+
+.video{
+    display: flex;
+    position: relative;
+}
+.player{
+    width: 76px;
+    height: 76px;
+    position: absolute;
+    z-index: 2;
+    left: 278px;
+    top: 207px;
+}
+.video-img{
+    width: 583px;
+    height: 490px;
+    position: relative;
+}
+
+.learn-texts{
+    display: flex;
+    flex-direction: column;
+    width: 497px;
+}
+.normal-text{
+    width: 428px;
+    height: 84;
+    font-size: 20px;
+    line-height: 28px;
+    color: #464646;
+    margin: 0;
+}
+.main-text{
+    font-size: 49px;
+    line-height: 58.8px;
+    margin: 40px 0 18px
+}
+
+.price {
+    display: flex;
+    justify-content: start;
+    gap: 6px;
+    align-items: center;
+    height: 38px;
+    margin: 18px 0;
+}
+
+.learn_price-big{
+    font-size: 31px;
+    font-weight: bold;
+    line-height: 38.4px;
+    letter-spacing: 0.5px;
+}
+.learn-price-small {
+    font-size: 20px;
+    line-height: 22.4px;
+    letter-spacing: 0.5px;
+    color: #757575;
+    text-decoration: line-through;
+}
+
+.learn-buttons{
+    display: flex;
+    gap: 36px;
+    margin: 18px 0 36px;
+}
+
+.learn_button-enroll{
+    color: #fff;
+    background-color: #e48d8b;
+    width: 153px;
+    height: 43px;
+    border: solid  #e48d8b;
+
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 27px;
+    font-family: 'Inter', sans-serif;
+}
+
+.learn_button_watch-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.learn_button-watch{
+    display: flex;
+    align-items: center;
+    width: 181px;
+    height: 43px;
+    background-color: #ededed;
+    border: solid #ededed;
+    padding: 0;
+
+    color:#757575;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: 'Inter', sans-serif;
+}
+.img-player{
+    width: 11.87px;
+    height: 21px;
+    margin: 11px 3.9px 11px 22.4px;
 }
