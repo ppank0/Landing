@@ -782,4 +782,73 @@ body{
     line-height: 24px;
 }
 
+footer{
+    height: 343px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fbfbfb;
+}
+
+.container-footer{
+    width: 1130px;
+    height: 215px;
+    display: flex;
+    justify-content: space-between;
+    gap: 140px;
+}
+
+.additional-info{
+    width: 400px;
+}
+.footer-logo{
+    width: 154px;
+    height: 27px;
+}
+.footer-text{
+    font-size: 18px;
+    line-height: 27px;
+    margin: 21px auto 16px;
+}
+.footer_text-small{
+    font-size: 14px;
+    line-height: 19.6px;
+    margin: 0;
+}
+.footer_text_small-blue{
+    color: #017cff;
+    text-decoration: underline;
+}
+.site-admin{
+    height: 215px;
+    width: 320px;
+    display: flex;
+    gap: 80px;
+}
+.container_site_admin {
+    width: 120px;
+    display: flex;
+}
+.container_site_admin ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 9px
+}
+.container_site_admin-name{
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    color: #B1B1B1;
+    margin: 0 0 7px;
+}
+.container_site_admin li{
+    list-style: none;
+
+    font-size: 14px;
+    line-height: 22.4px;
+}
+
+
 
