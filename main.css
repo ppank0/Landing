@@ -1115,7 +1115,6 @@ footer{
         height: 80px;
         width: 320px;
         justify-content: center;
-        background-color: #b1cdeba3;
     }
 
     .container-header{
@@ -1152,6 +1151,380 @@ footer{
         justify-content: center;
 
         font-size: 12px;
+    }
+
+    .main{
+        width: 320px;
+        padding: 0 12px;
+    }
+    .learn_how_to{
+        width: 296px;
+        height: 571px;
+        margin: 0;
+    }
+    .container-learn{
+        height: 571px;
+        padding-top: 10px;
+    }
+    .video-img,
+    .video{
+        width: 220px;
+        height: 185px;
+    }
+    .player{
+        width: 28.68px;
+        height: 28.68px;
+        top: 42%;
+        left: 47%;
+    }
+    .learn-texts{
+        width: 296px;
+        height: 376px;
+    }
+    .main-text{
+        font-size: 30px;
+        line-height: 40px;
+        margin: 20px 0 0;
+    }
+    .normal-text{
+        width: 300px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .price{
+        margin: 10px 0 25px;
+    }
+    .learn_price-big{
+        font-size: 28px;
+    }
+    .learn-price-small{
+        font-size: 18px;
+    }
+    .learn-buttons{
+        width: auto;
+        height: 43px;
+        margin: 0 0 20px;
+        gap: 12px;
+    }
+    .learn_button-enroll{
+        width: 144px;
+    }
+    .learn_button-watch{
+        width: 140px;
+        font-size: 17px;
+        justify-content: space-between;
+    }
+    .img-player{
+        height: 19px;
+        margin: 11.8px 0 11.8px 8.12px;
+    }
+
+    .questions{
+        width: auto;
+        height:809px;
+        
+    }
+    .container-questions{
+        width: 295px;
+        height: 759px;
+    }
+    .container_question{
+        width: 295px;
+        height: 252px;
+    }
+    .question-heading{
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .question-p{
+        font-size: 16px;
+        line-height: 25px;
+        height: 100px;
+        width: 295px;
+    }
+
+    .Joyce-and-Rob{
+        width: 320px;
+        height: 715px;
+        align-items: end;
+    }
+    .container-Joyce{
+        height: 685px;
+        width: 296px;
+        gap: 25px;
+    }
+    .Joyce-img,
+    .Joyce_img{
+        width: 296px;
+        height: 316px;
+    }
+    .Joyce-texts{
+        width: 296px;
+        height: 344px;
+        gap: 18px;
+        display: flex;
+        flex-direction: column;
+    }
+    .text-head{
+        font-size: 30px;
+        line-height: 40px;
+        height: 120px;
+    }
+    .text-p{
+        width: 296px;
+        height: 188px;
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .editing-skills{
+        width: 320px;
+        height: 693px;
+    }
+    .container-editing{
+        width: 296px;
+        height: 633px;
+        gap: 25px;
+        justify-content: center;
+    }
+    .editing-img,
+    .editing_img{
+        width: 296px;
+        height: 280px;
+    }
+    .editing-texts{
+        width: 293px;
+        height: 328px;
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .included{
+        width: 320px;
+        height: 530px;
+        align-items: normal;
+    }
+    .included_rectangle-green{
+        right: 23px;
+    }
+    .container-included{
+        width: 296px;
+        height: 430px;
+        margin-top: 30px;
+    }
+    .container_included-text{
+        margin: 30px auto;
+        font-size: 32px;
+            width: 271px;
+    }
+    .container_included-contant{
+        width: 296px;
+        height: 323px;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 10px;
+        grid-column-gap: 0;
+        margin: 0;
+    }
+    .included-block{
+        width: 148px;
+        height: 101px;
+        justify-content: space-between;
+    }
+    .included-block-p{
+        font-size: 60px;
+        margin: 0 auto;
+    }
+
+    .Curriculum{
+        width: 320px;
+        height: 666px;
+
+    }
+    .container-curriculum{
+        width: 296px;
+        height: 606px;
+        padding-top: 0;
+        gap: 20px;
+    }
+    .container_curriculum-text{
+        width: 296px;
+        height: 80px;
+        margin: 30px 0 0;
+
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .Curriculum-items{
+        width: 296px;
+        height: 456px;
+        
+    }
+    .Curriculum_item{
+        padding: 18px 12px 18px 24px;
+    }
+    .Curriculum_item p{
+        font-size: 17px;
+        
+    }
+
+    .Course{
+        width: 320px;
+        height: 1625px;
+    }
+    .container-course{
+        width: 296px;
+        height: 1565px;
+    }
+    .course-contant{
+        width: 296px;
+        height: 1368px;
+        padding: 0;
+        grid-template-columns: 1fr;
+        row-gap: 8px;
+        padding: 0 25px;
+    }
+
+    .Quote{
+        width: 320px;
+        height: 611px;
+    }
+    .container-Quote{
+        width: 296px;
+        height: 491px;
+    }
+
+    .Any-questions{
+        width: 320px;
+        height: 574px;
+    }
+    .container-any_questions{
+        width: 296px;
+        height: 454px;
+        gap: 8px;
+        padding: 30px 0;
+    }
+    .container_any_questions-p{
+        width: 235px;
+        font-size: 32px;
+    }
+    .any_questions-content{
+        width: 296px;
+        height: 340px;
+    }
+    .any_question-text{
+        font-size: 18px;
+    }
+
+    .Podcast{
+        width: 320px;
+        height: 1522px;
+    }
+    .podcast_rectangle{
+        left: 37px;
+    }
+    .container-padcast{
+        width: 296px;
+        height: 1402px;
+        padding: 0;
+        gap: 30px;
+    }
+    .container_padcast-p{
+        
+        height: 92px;
+        font-size: 32px;
+        text-align: center;
+    }
+    .podcast-cards{
+        width: 296px;
+        height: 1266px;
+        gap: 30px;
+    }
+    
+    .podcast_card-essential{
+        width: 296px;
+        height: 572px;
+    }
+    .podcast_card-premium{
+        width: 296px;
+        height: 664px;
+    }
+    .opportunity{
+        width: 296px;
+    }
+    .opportunity li{
+        width: 296px;
+        font-size: 15px;
+        gap: 18px;
+    }
+    .opportunity li img{
+        margin: 1px 0 1px 18px;
+    }
+    
+    .Comments{
+        width: 320px;
+        height: 2350px;
+        align-items: normal;
+        padding: 60px 0 68px;
+    }
+    .container-comments{
+        width: 296px;
+        height: 2222px;
+        gap: 14px;
+    }
+    .container_comments-p{
+        width: 288px;
+        height: 92px;
+        font-size: 32px;
+        text-align: center;
+    }
+    .comments-contant{
+        width: 296px;
+        height: 2116px;
+        gap: 20px;
+    }
+    .colum{
+        width: 296px;
+    }
+    .comment{
+        padding: 32px 0 32px 27px;
+    }
+    .comment-text{
+        width: 235px;
+        height: auto;
+        font-size: 16px;
+    }
+
+    footer{
+        width: 320px;
+        height: 435px;
+    }
+    .container-footer{
+        width: 296px;
+        height: 388px;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    .additional-info{
+        width: 287px;
+        height: 153px;
+    }
+    .footer-text,
+    .footer_text-small{
+        width: 293px;
+    }
+    .footer-text{
+        font-size: 16px;
+    }
+    
+    .site-admin{
+        gap: 34px;
+    }
+    .container_site_admin li{
+        font-size: 15px;
+        width: 96px;
     }
 }
 
