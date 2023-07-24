@@ -1085,5 +1085,76 @@ footer{
 
 }
 
+@media screen and (max-width: 320px){
+   
+    body{
+        width: 320px;
+    }
+
+    .border{
+        height: 719px;
+        width: 323.2px;
+    }
+    .pre-header{
+        width: 320px;
+        height: 68px;
+        padding: 10px;
+    }
+    .pre-contant{
+        width: 300px;
+        height: 48px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .pink{
+        padding: 0;
+    }
+
+    .header{
+        height: 80px;
+        width: 320px;
+        justify-content: center;
+        background-color: #b1cdeba3;
+    }
+
+    .container-header{
+        width: 296px;
+        height: 80px;
+        padding: 0;
+        flex-direction: column;
+        align-items: start;
+    }
+    
+    .header-logo,
+    .logo{
+        width: 123px;
+        height: 24px;
+    }
+    .logo{
+        margin: 10px auto 0 10px;
+    }
+    .text-button{
+        width: 296px;
+        height: 46px;
+    }
+    .text-button p{
+        width: 205px;
+        height: 45px;
+        text-align: center;
+
+    }
+    .header-button{
+        width: 91px;
+        height: 23px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        font-size: 12px;
+    }
+}
+
+
 
 
