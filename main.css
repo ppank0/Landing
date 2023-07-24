@@ -850,5 +850,238 @@ footer{
     line-height: 22.4px;
 }
 
+@media screen and (max-width: 720px){
+    body{
+        width: 720px;
+    }
+    .border{
+        height: 1118px;
+    }
+    .main{
+        display: flex;
+        padding: 0 55px;
+        width: 720px;
+    }
+    .pre-header{
+        width: 720px;
+    }
+    .pre-contant{
+        margin: auto;
+    }
+
+    .header,
+    .container-header{
+        width: 720px;
+    }
+
+    .container-header{
+        padding: 0 55px;
+    }
+    .text-button p{
+        padding: 0;
+        margin: auto;
+    }
+
+    .learn_how_to{
+        width: 610px;
+        height: 980px;
+        margin-top: 20px;
+        /* padding: 20px 55px 0; */
+    }
+    .container-learn{
+        height: 980px;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        gap: 0;
+    }
+    .questions{
+        width: 720px;
+        height: 809px;
+        align-items: center;
+    }
+    .container-questions{
+        width: 609px;
+        height: 759px;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .Joyce-and-Rob{
+        width: auto;
+        height: 879px;
+        /* padding: 30px 55.5px; */
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+    .container-Joyce{
+        width: 609px;
+        height: 819px;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .editing-skills{
+        width: auto;
+        height: 835px;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+    .container-editing{
+        width: 609px;
+        height: 775px;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .included{
+        width: auto;
+        height: 424px;
+        align-items: end;
+    }
+    .included_rectangle-green{
+        right: 42px;
+    }
+    .container-included{
+        width: 720px;
+        height: 397px;
+        padding: 0;
+    }
+    .container_included-text{
+        margin: 0 auto 45px;
+    }
+    .container_included-contant{
+        width: 653px;
+        height: 259px;
+        margin: 0 auto 47px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row-gap: 13px;
+    }
+    .Curriculum{
+        width: auto;
+        height: 634px;
+    }
+    .container-curriculum{
+        width: 609px;
+        height: 574px;
+        gap: 30px;
+        padding-top: 30px;
+        justify-content: normal;
+    }
+
+    .Course{
+        width: auto;
+        height: 1012px;
+    }
+    .course_rectangle-green{
+        right: 0;
+    }
+    .container-course{
+        width: 609px;
+        height: 952px;
+        padding: 0;
+    }
+    .container_course-text{
+        margin: 30px 0;
+    }
+    .course-contant{
+        width: 609px;
+        height: 800px;
+        padding: 0 30px;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 57px;
+    }
+
+    .Quote{
+        width: auto;
+        height: 481px;
+    }
+
+    .Any-questions{
+        width: auto;
+        height: 570px;
+
+    }
+    .container-any_questions{
+        width: 609px;
+        height: 450px;
+        padding-top: 30px;
+        gap: 30px;
+    }
+    .any_questions-content{
+        width: 609px;
+        height: 345px;
+    }
+
+    .Podcast{
+        width: auto;
+        height: 1522px;
+    }
+    .podcast_rectangle{
+        left: 44px;
+    }
+    .container-padcast{
+        width: 609px;
+        height: 1402px;
+        gap: 60px;
+        padding-top: 30px;
+    }
+    .podcast-cards{
+        width: 609px;
+        height: 1266px;
+        gap: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Comments{
+        width: auto;
+        height: 2230px;
+        align-items: end;
+    }
+    .comments_rectangle{
+        right: 0;
+    }
+    .container-comments{
+        width: 609px;
+        height: 2130px;
+        gap: 60px;
+    }
+    .comments-contant{
+        width: 609px;
+        height: 2024px;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+    .colum{
+        height: auto;
+    }
+
+    footer{
+        width: auto;
+        height: 365px;
+        padding: 60px 0 30px;
+    }
+    .container-footer{
+        width: 609px;
+        height: 275px;
+        gap: 35px;
+    }
+    .additional-info{
+        width: 348px;
+        height: 215px;
+    }
+    .site-admin{
+        width: 226px;
+        height: 215px;
+        gap: 12px;
+    }
+
+}
+
 
 
