@@ -1464,13 +1464,13 @@ footer{
     
     .Comments{
         width: 320px;
-        height: 2350px;
+        height: 2373px;
         align-items: normal;
         padding: 60px 0 68px;
     }
     .container-comments{
         width: 296px;
-        height: 2222px;
+        height: 2242px;
         gap: 14px;
     }
     .container_comments-p{
@@ -1481,24 +1481,26 @@ footer{
     }
     .comments-contant{
         width: 296px;
-        height: 2116px;
+        height: 2136px;
         gap: 20px;
     }
     .colum{
         width: 296px;
     }
     .comment{
-        padding: 32px 0 32px 27px;
+        padding: 30px 0 30px 27px;
     }
     .comment-text{
         width: 235px;
         height: auto;
         font-size: 16px;
+        margin: 24px 0 14px;
     }
 
     footer{
         width: 320px;
-        height: 435px;
+        height: 448px;
+        padding: 30px 0;
     }
     .container-footer{
         width: 296px;
@@ -1511,19 +1513,24 @@ footer{
         width: 287px;
         height: 153px;
     }
+    .footer-logo{
+        width: 123px;
+        height: 22px;
+    }
     .footer-text,
     .footer_text-small{
         width: 293px;
     }
     .footer-text{
         font-size: 16px;
+        margin: 19px 0 10px;
     }
     
     .site-admin{
         gap: 34px;
     }
     .container_site_admin li{
-        font-size: 15px;
+        font-size: 14px;
         width: 96px;
     }
 }
